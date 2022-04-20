@@ -2,8 +2,9 @@
 Django Note
 
 
-### Read csv file in django
 
+### Read csv file in django
+https://studygyaan.com/django/how-to-export-csv-file-with-django
 
     import csv 
     def index(request):
@@ -12,3 +13,6 @@ Django Note
         for row in reader:
             print(row)
     return render(request, 'polls/index.html')
+
+
+###
