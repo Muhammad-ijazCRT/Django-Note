@@ -7,6 +7,8 @@ Django Note
 import csv <br>
 def index(request):
 
+    import csv <br>
+def index(request):
     with open("email.csv", "r") as csvfile:
         reader = csv.reader(csvfile)
         for row in reader:
