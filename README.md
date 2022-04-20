@@ -5,7 +5,7 @@ Django Note
 ### Read csv file in django
 
 
-    import csv <br>
+    import csv 
     def index(request):
     with open("email.csv", "r") as csvfile:
         reader = csv.reader(csvfile)
