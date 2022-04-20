@@ -4,7 +4,7 @@ Django Note
 
 ### Read csv file in django
 
-import csv
+import csv <br>
 def index(request):
 
     with open("email.csv", "r") as csvfile:
