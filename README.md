@@ -29,5 +29,5 @@ https://studygyaan.com/django/how-to-export-csv-file-with-django
     {% for item1, item2 in mylist %}
     
 
-### Counter on django for loop database data: 
+### 3) Counter on django for loop database data
     <th scope="row"> {{ forloop.counter }} </th>
