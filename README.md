@@ -3,7 +3,7 @@ Django Note
 
 
 
-### Read csv file in django
+### 1) Read csv file in django
 https://studygyaan.com/django/how-to-export-csv-file-with-django
 
     import csv 
@@ -17,7 +17,7 @@ https://studygyaan.com/django/how-to-export-csv-file-with-django
 
 ###
 
-### “how to iterate multiple array in django template” Code Answer’s
+### 2) how to iterate multiple array in django template” Code Answer’s
 
     mylist = zip(list1, list2)
     context = {
@@ -25,5 +25,5 @@ https://studygyaan.com/django/how-to-export-csv-file-with-django
             }
     return render(request, 'template.html', context)
     
-##### loop for 
+### loop for 
     {% for item1, item2 in mylist %}
